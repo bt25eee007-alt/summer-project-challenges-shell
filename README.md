@@ -51,6 +51,9 @@ Read the [Answer Format Guide](./ANS_FORMAT_README.md) before you start writing 
 ***Command used:**
 'systemctl status cron'
 ***Output:** The service is active and running with an intial Main PID of 3015.
+![Challenge 1 Screenshot](./cal 4 sh.jpeg)
+![Challenge 1 Screenshot](./cal 2 sh.jpeg)
+![Challenge 1 Screenshot](./cal 3 sh.jpeg)
 
 ###2. Stop the Service
 ***Command used:**
@@ -60,6 +63,7 @@ Read the [Answer Format Guide](./ANS_FORMAT_README.md) before you start writing 
 ***Command used:**
 'systemctl status cron'
 ***Output:** Service became 'inactive(dead)' and PID 3015 was given.
+!Challenge 1 Screenshot](./cal 5 sh.jpeg)
 
 ###4. Start the service again
 ***Command used:**
@@ -74,5 +78,7 @@ Read the [Answer Format Guide](./ANS_FORMAT_README.md) before you start writing 
 'systemctl status cron'
 ***Output:** Even though it kills the service, because systemd is configured to automatically restart it if it terminates abnormally, service 
 status became' Active(running)' with new Main PID of 3041.
+![Challenge 1 screenshot](./cal 6 sh.jpeg)
+
 
 
